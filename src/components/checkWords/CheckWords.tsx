@@ -22,7 +22,7 @@ const CheckWords: FC = () => {
     useEffect(() => {
         if (dictionary.length < 10) {
             alert('You need to have at least 10 words in the dictionary');
-            navigate('/home');
+            navigate('/');
         } else {
             const tenWordArray: ICoupleWords[] = createRandomArray(dictionary, dispatch);
             createTranslateArray(dispatch, index, dictionary, tenWordArray);

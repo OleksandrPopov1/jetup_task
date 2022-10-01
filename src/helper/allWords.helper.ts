@@ -43,7 +43,7 @@ const initLocalStorage = (dictionary: ICoupleWords[], historyTests: IGeneralTest
     } else {
         const percentageAnswers: IPercentAnswer = JSON.parse(localStorage.getItem('correctAnswersPercentage') ?? '');
         if (percentageAnswers.qtyTests > 0) {
-            const newPercentageAnswers: number = +(percentageAnswers.goodAnswers / percentageAnswers.qtyTests).toFixed(2);
+            const newPercentageAnswers: number = percentageAnswers.goodAnswers / percentageAnswers.qtyTests;
             dispatch(dictionaryAction.changeCorrectAnswers(newPercentageAnswers));
         }
     }
