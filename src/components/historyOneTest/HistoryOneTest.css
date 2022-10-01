@@ -1,0 +1,16 @@
+.oneTest {
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.oneTest span {
+    font-weight: bold;
+}
+
+.good {
+    background-color: green;
+}
+
+.bad {
+    background-color: red;
+}

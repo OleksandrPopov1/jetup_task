@@ -1,0 +1,72 @@
+.homeBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.homeBlock h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.allWords {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 40vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.allWords::-webkit-scrollbar {
+    display: none;
+}
+
+.allGeneralTests {
+    height: 50vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.historyMenu {
+    margin-left: 5%;
+    width: 50vw;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+}
+
+.graph p {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    font-size: 15px;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+
+}
+
+.goodAnswersHeader {
+    margin-bottom: 0;
+}
+
+.goodAnswers {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 25vw;
+    margin: 5% 0;
+}
+
+
+
+

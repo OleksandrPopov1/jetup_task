@@ -1,0 +1,19 @@
+.layoutHeader {
+    text-align: center;
+    background-color: blue;
+    color: white;
+
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.layoutHeader a {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 2%;
+    color: white;
+}
+
+.layoutHeader a:hover {
+    color: black;
+}

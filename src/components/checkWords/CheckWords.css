@@ -1,0 +1,62 @@
+.checkWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.checkWords > h2 {
+    font-size: 30px;
+    color: #981010;
+}
+
+.englishWord {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.buttonsWords {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.buttonsWords button {
+    font-size: 30px;
+    background-color: #ffff48;
+    border: none;
+
+    transition: 300ms;
+}
+
+.buttonsWords button:hover,
+.result > button {
+    color: blue;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result > h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.result > button {
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 5%;
+    margin-top: 20%;
+    background-color: black;
+    color: white;
+}
