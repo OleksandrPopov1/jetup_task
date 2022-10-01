@@ -26,9 +26,12 @@ const AllWords: FC = () => {
     return (
         <div className={'homeBlock'}>
             <div>
-                <h2>Your Dictionary</h2>
-                <div className={'allWords'}>
-                    {dictionary.map(word => <OneWord key={word.id} word={word}/>)}
+                <div className={'dictionary'}>
+                    <h2>Your Dictionary</h2>
+                    <hr/>
+                    <div className={'allWords'}>
+                        {dictionary.map(word => <OneWord key={word.id} word={word}/>)}
+                    </div>
                 </div>
                 <div className={'historyMenu'}>
                     <HistoryMenu/>
@@ -36,19 +39,23 @@ const AllWords: FC = () => {
             </div>
 
             <div className={'statistics'}>
-                <h2>Your Activity</h2>
-                <div className={'graph'}>
-                    <p>Quantity tests</p>
-                    <ActivityGraph/>
+                <div className={'activity'}>
+                    <h2>Your Activity</h2>
+                    <div className={'graph'}>
+                        <p>Quantity tests</p>
+                        <ActivityGraph/>
+                    </div>
                 </div>
-                <h2 className={'goodAnswersHeader'}>Percentage of answers</h2>
                 <div className={'goodAnswers'}>
-                    <PieChart
-                        data={correctAnswersPercentage}
-                        radius={50}
-                        animate={true}
-                        label={({dataEntry}) => `${Math.round(dataEntry.value)}%`}
-                    />
+                    <h2 className={'goodAnswersHeader'}>Percentage of answers</h2>
+                    <div className={'goodAnswersPie'}>
+                        <PieChart
+                            data={correctAnswersPercentage}
+                            radius={50}
+                            animate={true}
+                            label={({dataEntry}) => `${Math.round(dataEntry.value)}%`}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

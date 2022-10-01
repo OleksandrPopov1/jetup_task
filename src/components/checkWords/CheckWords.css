@@ -10,13 +10,14 @@
 
 .checkWords > h2 {
     font-size: 30px;
-    color: #981010;
+    color: #d3f4f8;
 }
 
 .englishWord {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
-    margin-bottom: 5%;
+    margin: 3% 0 5%;
+    color: white;
 }
 
 .buttonsWords {
@@ -27,15 +28,18 @@
 
 .buttonsWords button {
     font-size: 30px;
-    background-color: #ffff48;
-    border: none;
+    background-color: #32678a;
+    color: white;
 
+    border: none;
+    border-radius: 25px;
+    padding: 2%;
     transition: 300ms;
 }
 
 .buttonsWords button:hover,
-.result > button {
-    color: blue;
+.result button {
+    color: #d2d2e1;
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -47,6 +51,7 @@
 }
 
 .result > h2 {
+    color: white;
     margin: 0;
     font-size: 50px;
     font-weight: bold;
@@ -57,6 +62,6 @@
     border-radius: 25px;
     padding: 5%;
     margin-top: 20%;
-    background-color: black;
+    background-color: #32678a;
     color: white;
 }

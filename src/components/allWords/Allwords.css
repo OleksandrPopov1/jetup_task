@@ -8,11 +8,19 @@
     font-size: 30px;
 }
 
+.dictionary {
+    margin: 1%;
+    color: white;
+    background-color: #32678a;
+    border-radius: 25px;
+}
+
 .allWords {
     display: flex;
     flex-wrap: wrap;
     width: 50vw;
     height: 40vh;
+
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -30,8 +38,9 @@
 }
 
 .historyMenu {
-    margin-left: 5%;
     width: 50vw;
+    margin: 5% 0 0 5%;
+    background-color: #32678a;
 }
 
 .statistics {
@@ -39,6 +48,15 @@
     flex-direction: column;
     align-items: center;
     width: 50vw;
+}
+
+.activity {
+    margin: 4%;
+    padding: 1% 2% 3.5%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #32678a;
+    color: white;
 }
 
 .graph {
@@ -55,11 +73,20 @@
 
 }
 
-.goodAnswersHeader {
-    margin-bottom: 0;
+.goodAnswers {
+    color: white;
+    background-color: #32678a;
+    border-radius: 25px;
+
+    padding: 0 15%;
+    margin-bottom: 5%;
 }
 
-.goodAnswers {
+.goodAnswersHeader {
+    margin: 5% 0;
+}
+
+.goodAnswersPie {
     display: flex;
     align-items: center;
     text-align: center;

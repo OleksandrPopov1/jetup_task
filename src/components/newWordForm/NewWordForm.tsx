@@ -47,8 +47,10 @@ const NewWordForm: FC = () => {
                 </div>
             </div>
 
-            <button>Add to dictionary</button>
-            <div className={'errorText'}>{duplication && <span>The word is already in the dictionary</span>}</div>
+            <div className={'sendButtonBlock'}>
+                <button>Add to dictionary</button>
+                <div className={'errorText'}>{duplication && <span>The word is already in the dictionary</span>}</div>
+            </div>
         </form>
     );
 };

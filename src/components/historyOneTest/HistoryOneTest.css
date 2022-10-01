@@ -1,4 +1,5 @@
 .oneTest {
+    border: 1px solid #bba9a9;
     box-sizing: border-box;
     padding: 1%;
 }

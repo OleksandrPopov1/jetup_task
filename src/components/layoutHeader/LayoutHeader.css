@@ -1,10 +1,10 @@
 .layoutHeader {
-    text-align: center;
-    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6a65e2;
     color: white;
 
     box-sizing: border-box;
-    padding: 2%;
 }
 
 .layoutHeader a {
