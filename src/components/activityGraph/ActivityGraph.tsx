@@ -23,7 +23,6 @@ const ActivityGraph: FC = () => {
 
     const data = showActivity();
 
-
     return (
         <LineChart width={550} height={200} data={data} margin={{top: 5, right: 20, bottom: 5, left: 0}}>
             <Line type="monotone" dataKey="uv" stroke="white"/>

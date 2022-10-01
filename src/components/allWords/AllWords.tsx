@@ -23,6 +23,7 @@ const AllWords: FC = () => {
         {title: 'Good Answers', value: correctAnswers * 10, color: '#53ff00'}
     ];
 
+
     return (
         <div className={'homeBlock'}>
             <div>
@@ -53,7 +54,7 @@ const AllWords: FC = () => {
                             data={correctAnswersPercentage}
                             radius={50}
                             animate={true}
-                            label={({dataEntry}) => `${Math.round(dataEntry.value)}%`}
+                            label={({dataEntry}) => `${Math.round(dataEntry.value * 10) / 10}%`}
                         />
                     </div>
                 </div>
