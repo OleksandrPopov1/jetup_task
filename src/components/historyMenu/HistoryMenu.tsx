@@ -20,7 +20,7 @@ const HistoryMenu: FC = () => {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton style={{boxSizing: 'border-box'}}>
-                        Your History Test
+                        Your Tests History
                     </AccordionItemButton>
                 </AccordionItemHeading>
 

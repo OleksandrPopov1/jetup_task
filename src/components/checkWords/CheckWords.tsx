@@ -47,7 +47,6 @@ const CheckWords: FC = () => {
             answersArray.id = uuidv4();
             dispatch(dictionaryAction.newRandomWords([]));
 
-            //record the last answer in localStorage
             const buttonTag = e.target as HTMLButtonElement;
             let lastGoodAnswer = goodAnswer;
             if (buttonTag.innerText === randomWords[index].ukraineWord) {
